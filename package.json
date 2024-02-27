@@ -1,0 +1,21 @@
+{
+  "name": "servicio-direccion-x-poligono",
+  "version": "1.0.0",
+  "description": "This is the repository for the **Punto&Coma servicio-direccion-x-poligono**. A simple service to verify an address within a map polygon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "express": "^4.18.2",
+    "node-geocoder": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
