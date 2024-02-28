@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use("/address", require("./routes/address"));
+app.use("/address", require("./routes/addressRoutes"));
 
 app.listen(3001, () => {
   console.log(`Listening on port: ${PORT}`);
