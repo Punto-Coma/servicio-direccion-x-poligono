@@ -27,7 +27,7 @@ const searchArea = async (req,res) => {
     
         const isValidAddress = turf.booleanPointInPolygon(
           point,
-          turf.polygon([pointPolygon])
+          turf.multiPolygon([pointPolygon])
         );
     
         return res.json({
